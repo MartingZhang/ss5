@@ -1,0 +1,9 @@
+version: '2'
+services:
+  ss5:
+    image: docker.io/cogset/socks-server-5:latest
+    ports:
+      - "1080:1080"
+    volumes:
+      - /etc/opt/ss5:/etc/opt/ss5
+      - /var/log/ss5:/var/log/ss5
