@@ -1,6 +1,7 @@
 version: '2'
 services:
   ss5:
+    restart: always
     image: docker.io/cogset/socks-server-5:latest
     ports:
       - "1080:1080"
