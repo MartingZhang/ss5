@@ -7,6 +7,7 @@ docker run --detach \
 docker.io/zxk114/socks-server-5:latest
 
 curl -L https://raw.githubusercontent.com/zxk114/ss5/master/ss5.conf -o /etc/opt/ss5/ss5.conf
+
 curl -L https://raw.githubusercontent.com/zxk114/ss5/master/ss5.passwd -o /etc/opt/ss5/ss5.passwd
 
 使用了默认端口1080，使用时只需在ss5.passwd文件更改或添加账户信息
